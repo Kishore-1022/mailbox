@@ -11,3 +11,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.tel{
+  color: whitesmoke;
+  background-color:#b711b2c7;
+  
+}
+.profile-image {
+  width: 20px; 
+  height: 20px; 
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* Sidebar.css */
+
+.sidebar {
+  background-color:whitesmoke; 
+  padding: 15px;
+  height: 100vh;
+  color: #333; 
+  width: 150px; 
+}
+
+.sidebar a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  border-bottom: 1px solid #ccc;
+  transition: transform 0.2s ease-in-out;
+}
+
+.sidebar a:hover {
+  background-color: #e0e0e0;
+  transform: translateX(5px); 
+}
+a{
+ text-decoration: none;
+}
+.mailContent {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #d4c6c671;
+  
+}
+.dot{
+  background-color: rgb(55, 55, 202);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: 20px;
+ 
+  text-align: end;
+}
+.d{
+  margin: end;
+}
+ 
+/* delete button */
+.trash-button {
+  background-color: transparent;
+  color: #dc3545; /* Bootstrap danger color, or choose your own */
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 1.5rem; /* Adjust the size as needed */
+  transition: color 0.3s ease;
+
+  /* Optional hover effect */
+  &:hover {
+    color: #c82333; /* Darker shade on hover */
+  }
+}
+
+
